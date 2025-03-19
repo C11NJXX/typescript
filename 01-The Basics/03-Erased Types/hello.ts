@@ -1,5 +1,5 @@
-"use strict";
-function greet(person, date) {
-    console.log("Hello ".concat(person, ", today is ").concat(date.toDateString(), "!"));
+function greet(person: String,date : Date) {
+    console.log(`Hello ${person}, today is ${date.toDateString()}`);
 }
-greet("Maddison", new Date());
+
+greet('C_11nJxx',new Date());
